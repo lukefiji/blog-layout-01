@@ -1,3 +1,100 @@
-@import "../scss/skeleton"
+@import "../scss/skeleton";
+
+/************************
+** Basic Colors 
+************************/
+$navbar-font-size: 20px;
+$navbar-color: $light-grey;
+$navbar-link-color: #333;
+$navbar-link-color-hover: #999999;
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Quattrocento', serif;
+}
+
+p {
+  font-family: 'Fanwood Text', serif;
+  font-size: 20px;
+  line-height: 1.75em;
+}
+
+.title {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.navbar {
+  ul {
+    border-top: 1px solid $navbar-color;
+    border-bottom: 1px solid $navbar-color;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+  }
+  li {
+    display: inline-block;
+    margin: 0;
+    a {
+      color: $navbar-link-color;
+      display: block;
+      text-align: center;
+      padding: 6px 20px;
+      text-decoration: none;
+//      text-transform: uppercase;
+      font-size: $navbar-font-size;
+      letter-spacing: 1px;
+      &:visited, &:active {
+        color: $navbar-link-color;
+      }
+      &:hover {
+        color: $navbar-link-color-hover;
+      }
+    }
+  }
+}
+
+.divider {
+  border-bottom: 1px solid $light-grey;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  .page-content & {
+    margin-left: 40%;
+    margin-right: 45%;
+  }
+}
+
+.page-content {
+  margin-top: 2rem;
   
+  .post {
+    margin-bottom: 2.5rem;
+  }
   
+  .post-image{
+    border: 1px solid $light-grey;
+    padding: 4px;
+    img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    }
+  }
+  
+  .post-content {
+    padding: 2rem 1rem 0 1rem;
+  }
+}
+
+.main-content {
+  padding-right: 2.75%;
+  border-right: 3px double $light-grey;
+}
+
+.footer {
+  p {
+    margin-top: 1rem;
+    text-align: center;
+  }
+}

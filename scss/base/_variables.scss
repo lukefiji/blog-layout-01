@@ -18,7 +18,7 @@ $link-color: #1eaedb !default;
 $font-color: #222 !default;
 
 // Typography
-$font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family: 'Fanwood Text', serif !default;
 
 //Grid Variables
 $container-width: 1200px !default;
@@ -26,7 +26,7 @@ $container-width-larger-than-mobile: 85% !default;
 $container-width-larger-than-phablet: 80% !default;
 $total-columns: 12 !default;
 $column-width: 100 / $total-columns !default; // calculates individual column width based off of # of columns
-$column-margin: 4% !default; // space between columns
+$column-margin: 2% !default; // space between columns
 
 // Misc
 $global-radius: 4px !default;

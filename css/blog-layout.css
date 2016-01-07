@@ -246,7 +246,7 @@ body {
   font-size: 1.5em;
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Fanwood Text", serif;
   color: #222; }
 
 /* line 22, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/base/_base-styles.scss */
@@ -281,10 +281,16 @@ hr {
 .u-pull-left {
   float: left; }
 
+/* line 22, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/base/_utils.scss */
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
 /* line 4, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/base/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-weight: 300; }
 
 /* line 10, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/base/_typography.scss */
@@ -386,7 +392,7 @@ p {
   /* line 41, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .column,
   .columns {
-    margin-left: 4%; }
+    margin-left: 2%; }
   /* line 45, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .column:first-child,
   .columns:first-child {
@@ -394,106 +400,106 @@ p {
   /* line 50, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .one.column,
   .one.columns {
-    width: 4.66667%; }
+    width: 6.5%; }
   /* line 51, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .two.columns {
-    width: 13.33333%; }
+    width: 15%; }
   /* line 52, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .three.columns {
-    width: 22%; }
+    width: 23.5%; }
   /* line 53, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .four.columns {
-    width: 30.66667%; }
+    width: 32%; }
   /* line 54, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .five.columns {
-    width: 39.33333%; }
+    width: 40.5%; }
   /* line 55, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .six.columns {
-    width: 48%; }
+    width: 49%; }
   /* line 56, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .seven.columns {
-    width: 56.66667%; }
+    width: 57.5%; }
   /* line 57, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .eight.columns {
-    width: 65.33333%; }
+    width: 66%; }
   /* line 58, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .nine.columns {
-    width: 74%; }
+    width: 74.5%; }
   /* line 59, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .ten.columns {
-    width: 82.66667%; }
+    width: 83%; }
   /* line 60, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .eleven.columns {
-    width: 91.33333%; }
+    width: 91.5%; }
   /* line 61, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .twelve.columns {
     width: 100%;
     margin-left: 0; }
   /* line 63, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .one-third.column {
-    width: 30.66667%; }
+    width: 32%; }
   /* line 64, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .two-thirds.column {
-    width: 65.33333%; }
+    width: 66%; }
   /* line 66, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .one-half.column {
-    width: 48%; }
+    width: 49%; }
   /* line 71, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .offset-by-one.column,
   .offset-by-one.columns {
-    margin-left: 8.66667%; }
+    margin-left: 8.5%; }
   /* line 73, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .offset-by-two.column,
   .offset-by-two.columns {
-    margin-left: 17.33333%; }
+    margin-left: 17%; }
   /* line 75, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .offset-by-three.column,
   .offset-by-three.columns {
-    margin-left: 26%; }
+    margin-left: 25.5%; }
   /* line 77, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .offset-by-four.column,
   .offset-by-four.columns {
-    margin-left: 34.66667%; }
+    margin-left: 34%; }
   /* line 79, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .offset-by-five.column,
   .offset-by-five.columns {
-    margin-left: 43.33333%; }
+    margin-left: 42.5%; }
   /* line 81, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .offset-by-six.column,
   .offset-by-six.columns {
-    margin-left: 52%; }
+    margin-left: 51%; }
   /* line 83, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .offset-by-seven.column,
   .offset-by-seven.columns {
-    margin-left: 60.66667%; }
+    margin-left: 59.5%; }
   /* line 85, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .offset-by-eight.column,
   .offset-by-eight.columns {
-    margin-left: 69.33333%; }
+    margin-left: 68%; }
   /* line 87, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .offset-by-nine.column,
   .offset-by-nine.columns {
-    margin-left: 78%; }
+    margin-left: 76.5%; }
   /* line 89, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .offset-by-ten.column,
   .offset-by-ten.columns {
-    margin-left: 86.66667%; }
+    margin-left: 85%; }
   /* line 91, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .offset-by-eleven.column,
   .offset-by-eleven.columns {
-    margin-left: 95.33333%; }
+    margin-left: 93.5%; }
   /* line 95, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .offset-by-one-third.column,
   .offset-by-one-third.columns {
-    margin-left: 34.66667%; }
+    margin-left: 34%; }
   /* line 97, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .offset-by-two-thirds.column,
   .offset-by-two-thirds.columns {
-    margin-left: 69.33333%; }
+    margin-left: 68%; }
   /* line 100, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
   .offset-by-one-half.column,
   .offset-by-one-half.column {
-    margin-left: 52%; } }
+    margin-left: 51%; } }
 
 /* line 112, C:/Users/Luke/Documents/GitHub/blog-layout-01/scss/modules/_grid.scss */
 .container:after,
@@ -793,5 +799,91 @@ ul,
 ol,
 form {
   margin-bottom: 2.5rem; }
+
+/************************
+** Basic Colors 
+************************/
+/* line 12, C:/Users/Luke/Documents/GitHub/blog-layout-01/css/blog-layout.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Quattrocento', serif; }
+
+/* line 16, C:/Users/Luke/Documents/GitHub/blog-layout-01/css/blog-layout.scss */
+p {
+  font-family: 'Fanwood Text', serif;
+  font-size: 20px;
+  line-height: 1.75em; }
+
+/* line 22, C:/Users/Luke/Documents/GitHub/blog-layout-01/css/blog-layout.scss */
+.title {
+  text-align: center;
+  margin-top: 1.5rem; }
+
+/* line 28, C:/Users/Luke/Documents/GitHub/blog-layout-01/css/blog-layout.scss */
+.navbar ul {
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  overflow: hidden; }
+
+/* line 36, C:/Users/Luke/Documents/GitHub/blog-layout-01/css/blog-layout.scss */
+.navbar li {
+  display: inline-block;
+  margin: 0; }
+  /* line 39, C:/Users/Luke/Documents/GitHub/blog-layout-01/css/blog-layout.scss */
+  .navbar li a {
+    color: #333;
+    display: block;
+    text-align: center;
+    padding: 6px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px; }
+    /* line 48, C:/Users/Luke/Documents/GitHub/blog-layout-01/css/blog-layout.scss */
+    .navbar li a:visited, .navbar li a:active {
+      color: #333; }
+    /* line 51, C:/Users/Luke/Documents/GitHub/blog-layout-01/css/blog-layout.scss */
+    .navbar li a:hover {
+      color: #999999; }
+
+/* line 58, C:/Users/Luke/Documents/GitHub/blog-layout-01/css/blog-layout.scss */
+.divider {
+  border-bottom: 1px solid #e1e1e1;
+  margin-top: 1px;
+  margin-bottom: 1px; }
+  /* line 62, C:/Users/Luke/Documents/GitHub/blog-layout-01/css/blog-layout.scss */
+  .page-content .divider {
+    margin-left: 40%;
+    margin-right: 45%; }
+
+/* line 68, C:/Users/Luke/Documents/GitHub/blog-layout-01/css/blog-layout.scss */
+.page-content {
+  margin-top: 2rem; }
+  /* line 71, C:/Users/Luke/Documents/GitHub/blog-layout-01/css/blog-layout.scss */
+  .page-content .post {
+    margin-bottom: 2.5rem; }
+  /* line 75, C:/Users/Luke/Documents/GitHub/blog-layout-01/css/blog-layout.scss */
+  .page-content .post-image {
+    border: 1px solid #e1e1e1;
+    padding: 4px; }
+    /* line 78, C:/Users/Luke/Documents/GitHub/blog-layout-01/css/blog-layout.scss */
+    .page-content .post-image img {
+      width: 100%;
+      height: auto;
+      vertical-align: top; }
+  /* line 85, C:/Users/Luke/Documents/GitHub/blog-layout-01/css/blog-layout.scss */
+  .page-content .post-content {
+    padding: 2rem 1rem 0 1rem; }
+
+/* line 90, C:/Users/Luke/Documents/GitHub/blog-layout-01/css/blog-layout.scss */
+.main-content {
+  padding-right: 2.75%;
+  border-right: 3px double #e1e1e1; }
+
+/* line 96, C:/Users/Luke/Documents/GitHub/blog-layout-01/css/blog-layout.scss */
+.footer p {
+  margin-top: 1rem;
+  text-align: center; }
 
 /*# sourceMappingURL=blog-layout.css.map */
